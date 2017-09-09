@@ -34,6 +34,6 @@ int main()
 		CirBuffAddItem(buffer,&i);
 	}
 	CirBuffDump(buffer);
-	
+	CirBuffDestroy(&buffer);
 	return 0;
 }

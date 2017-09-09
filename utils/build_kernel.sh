@@ -8,3 +8,5 @@ make defconfig
 make -j2
 sudo make modules_install 
 sudo make install
+sudo update-grub
+

@@ -14,7 +14,7 @@ DL_Status DL_Destroy(DL_t **head)
 	DL_t* temp;
 	while(*head != NULL)
 	{
-		temp = *head;
+		temp = *head;		/*Store the node in temp variable*/	
 		*head = (*head)->next;
 		free(temp);	/*Deletes all elements*/
 	}
