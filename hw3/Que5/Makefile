@@ -1,5 +1,5 @@
 CC = gcc
-CPPFLAGS = -pthread
+CPPFLAGS = -pthread -g
 INCLUDES =
 TARGET = multiThreaded.out
 SRC = 5fileHandling.c
